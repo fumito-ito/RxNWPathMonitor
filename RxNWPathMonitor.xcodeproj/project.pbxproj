@@ -30,7 +30,8 @@
 		0A9EB8B924E9776000538450 = {
 			isa = PBXGroup;
 			children = (
-				0A9EB8C524E9776000538450 /* RxNWPathMonitor */,
+				0A9EB8C624E9776000538450 /* RxNWPathMonitor.h */,
+				0A9EB8C524E9776000538450 /* Sources */,
 				0A9EB8C424E9776000538450 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +44,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A9EB8C524E9776000538450 /* RxNWPathMonitor */ = {
+		0A9EB8C524E9776000538450 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0A9EB8C624E9776000538450 /* RxNWPathMonitor.h */,
 				0A9EB8C724E9776000538450 /* Info.plist */,
 			);
-			path = RxNWPathMonitor;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +266,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RxNWPathMonitor/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,7 +290,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RxNWPathMonitor/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
