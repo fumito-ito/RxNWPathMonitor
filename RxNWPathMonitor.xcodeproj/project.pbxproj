@@ -57,10 +57,18 @@
 		0A9EB8C524E9776000538450 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0ACF238624EC381200D693BB /* RxNWPathMonitor */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0ACF238624EC381200D693BB /* RxNWPathMonitor */ = {
+			isa = PBXGroup;
+			children = (
 				0A9EB8C724E9776000538450 /* Info.plist */,
 				0AF0134A24E98EE9009FB3F6 /* NWPathMonitor+Rx.swift */,
 			);
-			path = Sources;
+			path = RxNWPathMonitor;
 			sourceTree = "<group>";
 		};
 		0AF0134C24E98EFA009FB3F6 /* Frameworks */ = {
@@ -320,7 +328,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS/Static",
 				);
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Sources/RxNWPathMonitor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
@@ -402,7 +410,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Sources/RxNWPathMonitor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
